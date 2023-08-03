@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* another reset */
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.df-jcc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.df-jcsb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.df-fww {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.df-aic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.df-col-jcsb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.ml-a {
+  margin-left: auto;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.ta-r {
+  text-align: right;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, a {
+  font-family: 'Bruno Ace SC', cursive;
+  line-height: 1.5;
+}
+
+h1 {
+  color: #00FFA3;
+  font-size: 128px;
+}
+
+h2, h3 {
+  font-size: 64px;
+}
+
+h5 {
+  font-size: 20px;
+  padding-bottom: 4px;
+}
+
+.artical > p {
+  font-size: 24px;
+  padding-top: 36px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 32px;
+}
+
+.bg-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1296px;
+}
+
+.header {
+  background: #000000;
+}
+
+.header .navbar {
+  padding-top: 40px;
+}
+
+.header .navbar li {
+  max-width: 25%;
+}
+
+.header .navbar a {
+  color: #D1D1D1;
+}
+
+.header .cover {
+  padding: 72px 0;
+  color: #FFFFFF;
+}
+
+.header .cover .btn {
+  background: #FFFFFF;
+  color: #000000;
+}
+
+.intro {
+  padding: 160px 0;
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true");
+  color: #FFFFFF;
+}
+
+.intro p {
+  padding-bottom: 32px;
+}
+
+.intro .item:not(:last-child) {
+  margin-right: 24px;
+}
+
+.about {
+  padding: 160px 0;
+}
+
+.about ul {
+  width: calc(50% - 12px);
+}
+
+.about li {
+  width: calc(50% - 12px);
+  padding: 16px;
+}
+
+.about .artical {
+  width: calc(41.66% - 12px);
+}
+
+.contact {
+  background: -webkit-gradient(linear, left top, left bottom, from(#050014), to(rgba(1, 2, 30, 0.89)));
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+  color: #FFFFFF;
+  padding: 96px 0;
+}
+
+.contact .title img {
+  height: 100px;
+  margin-left: 18px;
+}
+
+.contact .links .link {
+  width: 162px;
+  height: 162px;
+  border-radius: 40px;
+}
+
+.contact .links .link:not(:last-child) {
+  margin-right: 20px;
+}
+
+.contact .links .link-discord {
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/discord.png?raw=true");
+  -webkit-box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.9), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.contact .links .link-instagram {
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/instagram.png?raw=true");
+}
+
+.contact .links .link-message {
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/message.png?raw=true");
+}
+
+.contact .links .link-instagram, .contact .links .link-message {
+  background-size: 110%;
+  background-position-x: -3px;
+  background-position-y: -3px;
+}
+
+.project {
+  padding: 160px 0;
+}
+
+.project h2 {
+  width: calc(58.33% - 12px);
+  margin-bottom: 16px;
+}
+
+.project photo-left {
+  width: 33.33%;
+}
+
+.project .photo-right {
+  margin-left: 24px;
+}
+
+.project .photo-right .more {
+  height: 196px;
+  margin-bottom: 28px;
+}
+
+.project .photo-right .more .more-img {
+  width: 196px;
+  margin-right: 24px;
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/Rectangle%2015.png?raw=true");
+}
+
+.project .photo-right .more .more-article {
+  width: 75%;
+}
+
+.project .photo-right .more .btn {
+  background: #000000;
+  color: #FFFFFF;
+}
+
+.project .photo-right .photo-btm {
+  height: calc(100% - 196px);
+}
+
+.project .photo-right .photo-btm .photo-l {
+  width: 37.5%;
+  margin-right: 24px;
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/Rectangle%2014.png?raw=true");
+}
+
+.project .photo-right .photo-btm .photo-r {
+  width: 62.5%;
+  background-image: url("https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/Rectangle%2029.png?raw=true");
+}
+
+.footer {
+  color: #FFFFFF;
+  background: #000000;
+  padding: 40px 0;
+}
+/*# sourceMappingURL=main.css.map */

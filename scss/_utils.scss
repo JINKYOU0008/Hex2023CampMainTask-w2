@@ -1,0 +1,42 @@
+.d-block{
+  display: block;
+}
+.d-flex{
+  display: flex;
+}
+.df-jcc{
+  display: flex;
+  justify-content: center;
+}
+.df-jcsb{
+  display: flex;
+  justify-content: space-between;
+}
+.df-fww{
+  display: flex;
+  flex-wrap: wrap;
+}
+.df-aic{
+  display: flex;
+  align-items: center;
+}
+.df-col-jcsb{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.w-100{
+  width: 100%;
+}
+
+.ml-a{
+  margin-left: auto;
+}
+
+.ta-c{
+  text-align: center;
+}
+.ta-r{
+  text-align: right;
+}
